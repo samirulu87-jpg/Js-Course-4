@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="styles.css">
+    <title>Course 4</title>
+</head>
+<body>
+    <div class="bodycard1"><h2>Course 4</h2></div>
+    <br>
+    <div class="bodycard2">
+        <h3>Color-changer</h3>
+        <button id="colorbtn"> Change the background Color!</button>
+    </div>
+    <br>
+    <div class="bodycard2 guessing-game">
+        <input type="text" placeholder="Take A Guess!" id="guess-number">
+        <br>
+        <button id="guessbtn">Submit</button>
+        <br>
+        <output id="numoutput">----</output>
+    </div>
+    <br>
+    <div class="bodycard2">
+       <h3>Calculator</h3>
+    <input type="text" placeholder="First Number" id="First-num">
+    <br>
+    <input type="text" placeholder="Second Number" id="Second-num">
+    <br>
+    <button id="adding">Add</button>
+    <button id="subtracting">Subtract</button>
+    <button id="Multiply">Multiply</button>
+     <button id="Divide">Divide</button>
+    <br>
+        Addition: <output id="addoutput">-------</output>
+    <br>
+        Subtraction: <output id="suboutput">-------</output>
+    <br>
+        Multiplication: <output id="multiplyoutput">-------</output>
+    <br>
+        Divistion: <output id="divitionoutput">-------</output>
+        </div>
+<br>
+<div class="bodycard2 guessing-game">
+        <h3>Image Slider</h3>
+        <img src="/images/cute-cat-2.jpg" alt="orange cat laying down" id="imageslide">
+        <div class="button-container">
+            <button id="imgback">Back</button>
+            <button id="imgnext">Next</button>
+        </div>
+    </div>
+<br>
+<div class="bodycard2" id="loginForm">
+        <input type="email" name="email" id="email" placeholder="Type email" required>
+        <input type="password" name="password" id="password" placeholder="Type in passward" required minlength="6">
+        <button id="emailsubmit">Submit</button>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
